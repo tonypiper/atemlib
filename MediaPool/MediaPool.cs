@@ -1,11 +1,7 @@
-﻿using Newtonsoft.Json;
-using SwitcherLib;
+﻿using SwitcherLib;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web.Script.Serialization;
 using System.Xml.Serialization;
 
 namespace MediaPool
@@ -145,7 +141,8 @@ namespace MediaPool
                     break;
 
                 case MediaPool.Format.JSON:
-                    Console.Out.WriteLine(JsonConvert.SerializeObject(stills));
+                    JavaScriptSerializer serializer = new JavaScriptSerializer();
+                    Console.Out.WriteLine(serializer.Serialize(stills));
                     break;
 
                 case MediaPool.Format.XML:

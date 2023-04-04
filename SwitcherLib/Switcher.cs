@@ -79,20 +79,26 @@ namespace SwitcherLib
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode4KHDp24:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode4KHDp25:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode4KHDp2997:
+                case _BMDSwitcherVideoMode.bmdSwitcherVideoMode4KHDp50:
+                case _BMDSwitcherVideoMode.bmdSwitcherVideoMode4KHDp5994:
                     return 2160;
 
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode720p50:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode720p5994:
+                case _BMDSwitcherVideoMode.bmdSwitcherVideoMode720p60:
                     return 720;
 
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080i50:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080i5994:
-                case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p50:
+                case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080i60:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p2398:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p24:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p25:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p2997:
+                case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p30:
+                case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p50:
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p5994:
+                case _BMDSwitcherVideoMode.bmdSwitcherVideoMode1080p60:
                     return 1080;
 
                 case _BMDSwitcherVideoMode.bmdSwitcherVideoMode525i5994NTSC:
